@@ -31,7 +31,7 @@ class brain{
       else
         return "Start Exercising !! You are overweight";
     else
-      return "OMG!!! Come on now!! Start exercising ! You are Obease ";
+      return "OMG!!! Come on now!! Start exercising ! You are Obese ";
   }
 
 }
