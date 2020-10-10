@@ -11,7 +11,7 @@ class brain{
   }
   String getType()
   {
-    if(_ans<25)
+    if(_ans<=25)
       if(_ans>=18.5)
         return "Normal";
       else
@@ -22,7 +22,7 @@ class brain{
 
   String getMessage()
   {
-    if(_ans<28)
+    if(_ans<=28)
       if(_ans<=25)
         if(_ans>=18.5)
           return "You are absolutely fine! Keep Exercising";
